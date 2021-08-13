@@ -8,14 +8,14 @@ type Usser = {
 
 function showMensageWelcome(usser: Usser){
     console.log(
-        `seja bem vindo ${usser.name} de ${usser.adrees.city}
+        `seja bem vindo ${usser.name} de ${usser.adrees.city}`)
 }
 
 showMensageWelcome({
     name: 'Afonsos',
     adrees:{
-        city: 'Mogi das Cruzes';
-        UF: 'sP'
+        city: 'Mogi das Cruzes',
+        UF: 'sP'    
     }
 
 })
